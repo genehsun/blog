@@ -8,7 +8,7 @@ categories:
 
 ![1](自定义View的一种使用场景/list.gif)
 
-用TextView结合String换行无法实现weight value靠右对齐。用CardView嵌套ListView又显得太重，还有性能问题。分析下来，更合理的做法是自定义一个View实现。
+用TextView结合String换行无法实现weight value靠右对齐。用CardView嵌套ListView开销过大，还有卡顿问题。分析下来，更合理的做法是自定义一个View实现。
 
 Android的自定义View控件可以分为三种：组合式、继承式、自绘式，这个场景适合用自绘式实现。分享下代码：
 
